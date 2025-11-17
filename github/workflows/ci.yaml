@@ -8,7 +8,7 @@ on:
       - main      # PRs to main branch
   push:
     branches:
-      - main      # Only push to main triggers Docker build & k8s update
+      - main
 
 # Jobs
 jobs:
